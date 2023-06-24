@@ -108,7 +108,7 @@ def home():
 if __name__ == "__main__":
     app.run(
         debug=True,
-        host="192.168.249.130",
+        host="192.168.246.130",
         port=5000,
     )
 

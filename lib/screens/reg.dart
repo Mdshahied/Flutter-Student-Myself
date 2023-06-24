@@ -48,7 +48,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         "password": password
       };
       var response = await http.post(
-          Uri.parse("http://192.168.249.130:5000/register_user"),
+          Uri.parse("http://192.168.246.130:5000/register_user"),
           body: jsonEncode(data));
       print(response.body);
 
